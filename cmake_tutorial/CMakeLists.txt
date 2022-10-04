@@ -3,5 +3,5 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(programa VERSION 1.0)
-add_executable(programa main.cpp)
+add_executable(programa main.cpp src/FirePropagation.cpp)
 target_include_directories(programa PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
