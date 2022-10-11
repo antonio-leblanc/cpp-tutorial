@@ -4,8 +4,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(firepropagation VERSION 1.0)
 
-add_library(mylib STATIC Models/FireModel.cpp)
-target_include_directories(mylib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/Models/include)
+add_library(mylib STATIC src/Models/FireModel.cpp)
+target_include_directories(mylib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/src/Models/include)
 
 
 file(GLOB_RECURSE SRC_FILES src/*.cpp)
