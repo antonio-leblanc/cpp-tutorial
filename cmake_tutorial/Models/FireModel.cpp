@@ -2,5 +2,5 @@
 #include <iostream>
 
 void LabresModel::getParams(){
-    std::cout << "parametros bons!\n";
+    std::cout << "Parametros bons!\n";
   };
