@@ -1,5 +1,5 @@
 NETCDF = -lnetcdf_c++ -lnetcdf
-APP = main.cpp
+APP = main.cpp models.cpp
 CXX = g++
 CXXFLAGS = -Wall -ggdb
 
