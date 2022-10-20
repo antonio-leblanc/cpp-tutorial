@@ -1,2 +1,3 @@
-add_library(firelib STATIC FireModel.cpp FirePropagation.cpp)
+file(GLOB_RECURSE SRC_FILES *.cpp)
+add_library(firelib STATIC ${SRC_FILES})
 target_include_directories(firelib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
