@@ -1,2 +1,2 @@
-add_library(mylib STATIC FireModel.cpp)
-target_include_directories(mylib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+add_library(firelib STATIC FireModel.cpp FirePropagation.cpp)
+target_include_directories(firelib PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
