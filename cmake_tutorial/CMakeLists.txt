@@ -9,4 +9,6 @@ add_subdirectory(src/DataBroker)
 # file(GLOB_RECURSE SRC_FILES src/*.cpp)
 add_executable(programa main.cpp ${SRC_FILES})
 
+# target_include_directories(programa PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/include)
+
 target_link_libraries(programa PUBLIC firelib datalib)
